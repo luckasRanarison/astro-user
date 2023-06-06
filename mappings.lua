@@ -11,6 +11,8 @@ return {
       desc = "Pick to close",
     },
 
+    ["<leader>m"] = { name = " Minimap" },
+
     ["<leader>c"] = { name = "", desc = " Color" },
     ["<leader>cp"] = { ":CccPick<CR>", desc = "Pick color" },
     ["<leader>cc"] = { ":CccConvert<CR>", desc = "Convert color" },
@@ -18,8 +20,9 @@ return {
     ["<leader>cd"] = { ":CccHighlighterDisable<CR>", desc = "Disable highlights" },
     ["<leader>ct"] = { ":CccHighlighterToggle<CR>", desc = "Toggle highlights" },
 
-    ["<leader>p"] = { '"+p', desc = "Paste from clipboard" },
-    ["<leader>P"] = { '"+P', desc = "Paste from clipboard" },
+    ["<leader>P"] = { name = "󰱖 Clipboard" },
+    ["<leader>Pp"] = { '"+p', desc = "Paste from clipboard" },
+    ["<leader>PP"] = { '"+P', desc = "Paste from clipboard" },
 
     ["<leader>s"] = { ":nohlsearch<CR>", desc = "Clear search highlights" },
 
@@ -36,8 +39,8 @@ return {
     ["<A-l>"] = { ":MoveHBlock(1)<CR>", desc = "Move character right" },
 
     ["<leader>y"] = { '"+y', desc = "Yank to clipboard" },
-    ["<leader>p"] = { '"+p', desc = "Paste from clipboard" },
-    ["<leader>P"] = { '"+P', desc = "Paste from clipboard" },
+    ["<leader>Pp"] = { '"+p', desc = "Paste from clipboard" },
+    ["<leader>PP"] = { '"+P', desc = "Paste from clipboard" },
   },
 
   t = {},

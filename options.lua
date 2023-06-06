@@ -7,6 +7,7 @@ return {
     wrap = false,
     clipboard = "",
     termguicolors = true,
+    mouse = "",
   },
 
   g = {

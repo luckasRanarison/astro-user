@@ -19,18 +19,6 @@ return {
     underline = true,
   },
 
-  lsp = {
-    formatting = {
-      format_on_save = {
-        enabled = true,
-        ignore_filetypes = {},
-      },
-      disabled = {},
-      timeout_ms = 2000,
-    },
-    servers = {},
-  },
-
   lazy = {
     defaults = { lazy = true },
     performance = {
